@@ -1,0 +1,23 @@
+.navbar{
+	background: #2ab574;
+}
+main{
+	margin: 0% !important;
+}
+
+
+/*Footer*/
+footer h6{
+	color: black;
+}
+#subscribe-block{
+	background: #2ab574;
+}
+
+.add-to-bag{
+background: #1e5799;
+background: -moz-linear-gradient(left, #1e5799 0%, #fe8e68 0%, #fd746c 100%);
+background: -webkit-linear-gradient(left, #1e5799 0%,#fe8e68 0%,#fd746c 100%);
+background: linear-gradient(to right, #1e5799 0%,#fe8e68 0%,#fd746c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#fd746c',GradientType=1 );
+}

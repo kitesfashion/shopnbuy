@@ -1,0 +1,122 @@
+@media only screen and (min-width:481px) and (max-width:767px) {
+    .fixed-sn main {
+        padding-top: 50px !important;
+    }
+
+    .footerCopyright{
+        margin-bottom: 100px;
+    }
+
+    .footerDevelopedBy {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1100px) {
+    .search-container {
+        margin-left: 50px;
+    }
+}
+
+.mainContent{
+    min-height:80vh;
+    background: #e9e5e2!important;
+}
+
+/*fulscreen main slider*/
+.leftRs span,.rightRs span{
+    color: #FFF;
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.show_cart_block{
+    display: block !important;
+}
+
+.old_price{
+	text-decoration: line-through !important;
+}
+
+.ngxImageZoomFullContainer[_ngcontent-c15] {
+    position: static;
+    overflow: hidden;
+}
+
+.ngxImageZoomFull[_ngcontent-c15] {
+    position: absolute;
+    max-width: 600px;
+    max-height: 600px;
+    display: none;
+}
+
+.required{
+    color: red !important;
+}
+
+
+.categorySection{
+    background: #2ab574;
+    color: #fff;
+    padding: 30px;
+}
+
+.categorySection h3{
+    margin-bottom: 0px;
+}
+
+
+
+#pe-overlay-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483638;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#pushengage-overlay-close {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 55px;
+    height: 32px;
+    cursor: pointer;
+}
+
+#pushengage-overlay-close:before, #pushengage-overlay-close:after {
+    position: fixed;
+    right: 48px;
+    content: " ";
+    height: 33px;
+    width: 3px;
+    background-color: #ffffff;
+}
+
+#pushengage-overlay-close:before {
+    transform: rotate(45deg);
+}
+
+#pushengage-overlay-close:after {
+    transform: rotate(-45deg);
+}
+
+#pushengage-overlay-close:before, #pushengage-overlay-close:after {
+    position: fixed;
+    right: 48px;
+    content: " ";
+    height: 33px;
+    width: 3px;
+    background-color: #ffffff;
+}
